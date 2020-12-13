@@ -22,9 +22,9 @@ const Home = () => {
           <Navbar openSidebar={openSidebar}/> 
           <Sidebar closeSidebar={closeSidebar} sidebarOpen={sidebarOpen}/>
           <Hero/>
-          <InfoSection/>
-          <InfoSection2/>
-          <InfoSection3/>
+          <InfoSection />
+          <InfoSection2 />
+          <InfoSection3 />
         </>
         )
 }

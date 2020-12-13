@@ -83,9 +83,12 @@ export const NavLink = styled(LinkS)`
     cursor: pointer;
     padding: 0 1rem;
     height: 100%;
-    font-size: 26px;
+    font-size: 18px;
     &.active {
         border-bottom: 3px solid #01bf71;
+    }
+    &:hover {
+        color: #7d7b7a;
     }
     z-index: 999;
 `;
@@ -110,6 +113,6 @@ export const NavBtnLink = styled(LinkR)`
     z-index: 999;
     &:hover {
         transition: 0.2s all ease-in-out;
-        background: #fff;
+        background: rgba(1,191,113, 0.5);
     }
 `
