@@ -20,9 +20,6 @@ const Navbar = ( {openSidebar} ) => {
                         <NavItem>
                             <NavLink to="InfoSection2" smooth={true} >Discover</NavLink>
                         </NavItem>
-                        <NavItem>
-                            <NavLink to="/">Services</NavLink>
-                        </NavItem>
                         <NavItem >
                             <NavLink to="InfoSection3" smooth={true}>Sign Up</NavLink>
                         </NavItem>
