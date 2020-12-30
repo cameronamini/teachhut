@@ -1,14 +1,34 @@
 import styled from 'styled-components'
+import { Link as LinkR } from 'react-router-dom'
 
 export const Container = styled.div`
     width: 100vw;
     height: 100vh;
     background: #01bf71;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
 `
 
+export const Logo = styled(LinkR)`
+    color: black;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: flex;
+    margin-left: 250px;
+    margin-top: 20px;
+    font-weight: 900;
+    text-decoration: none;
+    z-index: 999;
+    @media screen and (max-width: 480px) {
+        font-size: 22px;    }
+`
+
+export const FormWrapper = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+`
 export const Form = styled.form`
     width: 400px;
     height: 500px;
