@@ -5,7 +5,7 @@ This is a simple website I made from scratch for a fictional ed-tech startup usi
 
 ## Demo
 
-![scrolling](react-scroll-demo.gif)
+![scrolling](demo/react-scroll-demo.gif)
 
 
-![clicking](react-router-demo.gif)
+![clicking](demo/react-router-demo.gif)
