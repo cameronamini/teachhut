@@ -8,4 +8,4 @@ This is a simple website I made from scratch for a fictional ed-tech startup usi
 ![scrolling](demo/react-scroll-demo.gif)
 
 
-![clicking](demo/react-router-demo.gif)
+![clicking](demo/sign-in-page.gif)
